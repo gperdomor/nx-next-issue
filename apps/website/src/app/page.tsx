@@ -1,3 +1,4 @@
+import { sampleLib } from '@sandbox/sample-lib';
 import styles from './page.module.css';
 
 export default function Index() {
@@ -13,7 +14,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome website 👋
+              Welcome website 👋 - {sampleLib()}
             </h1>
           </div>
 
